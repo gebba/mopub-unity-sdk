@@ -1,0 +1,43 @@
+# OS X
+.DS_Store
+
+# Android Studio
+*.iml
+
+# Xcode
+build
+DerivedData
+dist
+*.xccheckout
+*.xcuserdatad
+*.egg-info
+*.so
+*.pyc
+*.pbxuser
+*.mode1v3
+*.mode2v3
+*.perspectivev3
+*.xcuserstate
+.idea
+project.xcworkspace/
+xcuserdata/
+*.o
+*.Plo
+*.lo
+config.log
+config.status
+*.xcscmblueprint
+
+
+# emacs
+*~
+
+*.apk
+Editor Default Resources/
+Editor Default Resources.meta
+*Package/Temp
+*Package/Library/
+*.csproj
+mopub-unity-plugin/exportlog.txt
+unity/MoPubUnityPlugin/ProjectSettings/
+*.zip
