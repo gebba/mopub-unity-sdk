@@ -1,0 +1,5 @@
+apply from: '../shared-build.gradle'
+
+dependencies {
+    compile (name: 'mm-ad-sdk-6.3.0', ext: 'aar')
+}

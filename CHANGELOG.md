@@ -1,5 +1,9 @@
+## Version 4.16.1 (September 8, 2017)
+- The MoPub Unity Plugin is now fully open source! Please see the [readme](https://github.com/mopub/mopub-unity-sdk/blob/master/README.md) for details and building instructions.
+- This release does not change the SDK compatibility; the Plugin is still compatible with version 4.16.1 of the MoPub Android SDK and version 4.16.0 of the MoPub iOS SDK.
+
 ## Version 4.16.0 (August 30, 2017)
-- The MoPub Unity Plugin is now compatible with version 4.16.1 of the MoPub Android SDK and version 4.16 of the MoPub iOS SDK.
+- The MoPub Unity Plugin is now compatible with version 4.16.1 of the MoPub Android SDK and version 4.16.0 of the MoPub iOS SDK.
 - Rewarded Videos have a new init method. See `MoPub.initializeRewardedVideo(MoPubRewardedNetwork[])`. Pass in a list of networks to initialize, and MoPub will initialize those networks with the settings from the previous ad request, persisted across app close.
 
 ## Version 4.15.0 (June 29, 2017)
