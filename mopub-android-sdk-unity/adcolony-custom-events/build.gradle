@@ -1,0 +1,5 @@
+apply from: '../shared-build.gradle'
+
+dependencies {
+    compile (name: 'adcolony-3.1.0-unity', ext: 'aar')
+}

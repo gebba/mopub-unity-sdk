@@ -1,0 +1,8 @@
+apply from: '../shared-build.gradle'
+
+dependencies {
+    compile name: 'vungle-publisher-adaptive-id-4.0.2'
+    compile name: 'dagger-2.4'
+    compile name: 'javax.inject-1'
+}
+

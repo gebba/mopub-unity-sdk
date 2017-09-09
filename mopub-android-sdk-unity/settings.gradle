@@ -1,0 +1,8 @@
+rootProject.name = 'mopub-sdk-unity'
+
+include ':mopub-sdk'
+project(':mopub-sdk').projectDir = new File("../mopub-android-sdk/mopub-sdk")
+
+include ':mopub-sdk:mopub-sdk-base', ':mopub-sdk:mopub-sdk-banner', ':mopub-sdk:mopub-sdk-interstitial', ':mopub-sdk:mopub-sdk-rewardedvideo', ':mopub-sdk:mopub-sdk-native-static', ':mopub-sdk:mopub-sdk-native-video'
+include ':adcolony-custom-events', ':unityads-custom-events', ':chartboost-custom-events', ':facebook-custom-events', ':admob-custom-events', ':millennial-custom-events', ':vungle-custom-events'
+

@@ -1,0 +1,5 @@
+apply from: '../shared-build.gradle'
+
+dependencies {
+    compile (name: 'unity-ads-2.1.0', ext: 'aar')
+}

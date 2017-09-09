@@ -1,0 +1,600 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		1832FFE41CBD33070065521D /* MoPub for Unity */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 1832FFE51CBD33070065521D /* Build configuration list for PBXAggregateTarget "MoPub for Unity" */;
+			buildPhases = (
+				1832FFEC1CBD39810065521D /* CopyFiles */,
+			);
+			dependencies = (
+				1832FFE91CBD331D0065521D /* PBXTargetDependency */,
+				1832FFEB1CBD33200065521D /* PBXTargetDependency */,
+			);
+			name = "MoPub for Unity";
+			productName = "MoPub for Unity";
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		1832FFED1CBD39860065521D /* libMoPubSDK.a in CopyFiles */ = {isa = PBXBuildFile; fileRef = 1832FF891CBC18C10065521D /* libMoPubSDK.a */; };
+		1832FFEE1CBD39890065521D /* libmopub-ios-sdk-unity.a in CopyFiles */ = {isa = PBXBuildFile; fileRef = 4D208F0D1CAD6A2100F2C8F0 /* libmopub-ios-sdk-unity.a */; };
+		4D208F1C1CAD6A6000F2C8F0 /* MoPubBinding.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D208F191CAD6A6000F2C8F0 /* MoPubBinding.m */; };
+		4D208F1D1CAD6A6000F2C8F0 /* MoPubManager.mm in Sources */ = {isa = PBXBuildFile; fileRef = 4D208F1B1CAD6A6000F2C8F0 /* MoPubManager.mm */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1832FF881CBC18C10065521D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1832FF6F1CBC18C10065521D /* MoPubSDK.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = AE515F9C171F1B110086B464;
+			remoteInfo = MoPubSDK;
+		};
+		1832FF8A1CBC18C10065521D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1832FF6F1CBC18C10065521D /* MoPubSDK.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 468BCE1019996C550054A051;
+			remoteInfo = "MoPubSDK-APICheck";
+		};
+		1832FF8C1CBC18C10065521D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1832FF6F1CBC18C10065521D /* MoPubSDK.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = AEF1F32816EF9AD700273462;
+			remoteInfo = "MoPubSDK+Networks";
+		};
+		1832FF8E1CBC18C10065521D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1832FF6F1CBC18C10065521D /* MoPubSDK.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = AEA97BDE16EF9C030046D464;
+			remoteInfo = Specs;
+		};
+		1832FF901CBC18C10065521D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1832FF6F1CBC18C10065521D /* MoPubSDK.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 570AFF1819D6174200065388;
+			remoteInfo = MoPubFabric;
+		};
+		1832FF921CBC18C10065521D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1832FF6F1CBC18C10065521D /* MoPubSDK.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 570A005B19D6206800065388;
+			remoteInfo = MoPubResources;
+		};
+		1832FF941CBC18C10065521D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1832FF6F1CBC18C10065521D /* MoPubSDK.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 57CF551319DE44AD000D29C5;
+			remoteInfo = AdColonyCustomEvent;
+		};
+		1832FF961CBC18C10065521D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1832FF6F1CBC18C10065521D /* MoPubSDK.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 57CF54EA19DE442F000D29C5;
+			remoteInfo = ChartboostCustomEvent;
+		};
+		1832FF981CBC18C10065521D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1832FF6F1CBC18C10065521D /* MoPubSDK.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 57CF54B319DE435F000D29C5;
+			remoteInfo = FacebookCustomEvent;
+		};
+		1832FF9A1CBC18C10065521D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1832FF6F1CBC18C10065521D /* MoPubSDK.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 57CF553C19DE4539000D29C5;
+			remoteInfo = GoogleAdMobCustomEvent;
+		};
+		1832FF9C1CBC18C10065521D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1832FF6F1CBC18C10065521D /* MoPubSDK.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 57CF557519DE4607000D29C5;
+			remoteInfo = GreystripeCustomEvent;
+		};
+		1832FF9E1CBC18C10065521D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1832FF6F1CBC18C10065521D /* MoPubSDK.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 57CF559E19DE4664000D29C5;
+			remoteInfo = iAdCustomEvent;
+		};
+		1832FFA01CBC18C10065521D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1832FF6F1CBC18C10065521D /* MoPubSDK.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 57CF55C719DE46E1000D29C5;
+			remoteInfo = InMobiCustomEvent;
+		};
+		1832FFA21CBC18C10065521D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1832FF6F1CBC18C10065521D /* MoPubSDK.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 57CF55FD19DE472B000D29C5;
+			remoteInfo = VungleCustomEvent;
+		};
+		1832FFA41CBC18C10065521D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1832FF6F1CBC18C10065521D /* MoPubSDK.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 57CF562619DE47B5000D29C5;
+			remoteInfo = MillennialCustomEvent;
+		};
+		1832FFA61CBC18C10065521D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1832FF6F1CBC18C10065521D /* MoPubSDK.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 4ADE60141B4FFA66004C3673;
+			remoteInfo = UnityCustomEvent;
+		};
+		1832FFE81CBD331D0065521D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1832FF6F1CBC18C10065521D /* MoPubSDK.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = AE515F39171F1B110086B464;
+			remoteInfo = MoPubSDK;
+		};
+		1832FFEA1CBD33200065521D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4D208F051CAD6A2100F2C8F0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4D208F0C1CAD6A2100F2C8F0;
+			remoteInfo = "mopub-ios-sdk-unity";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		1832FFEC1CBD39810065521D /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(SRCROOT)/bin";
+			dstSubfolderSpec = 0;
+			files = (
+				1832FFED1CBD39860065521D /* libMoPubSDK.a in CopyFiles */,
+				1832FFEE1CBD39890065521D /* libmopub-ios-sdk-unity.a in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		1832FF6F1CBC18C10065521D /* MoPubSDK.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = MoPubSDK.xcodeproj; path = "../mopub-ios-sdk/MoPubSDK.xcodeproj"; sourceTree = "<group>"; };
+		4D208F0D1CAD6A2100F2C8F0 /* libmopub-ios-sdk-unity.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libmopub-ios-sdk-unity.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D208F191CAD6A6000F2C8F0 /* MoPubBinding.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MoPubBinding.m; sourceTree = "<group>"; };
+		4D208F1A1CAD6A6000F2C8F0 /* MoPubManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MoPubManager.h; sourceTree = "<group>"; };
+		4D208F1B1CAD6A6000F2C8F0 /* MoPubManager.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = MoPubManager.mm; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4D208F0A1CAD6A2100F2C8F0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1832FF701CBC18C10065521D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1832FF891CBC18C10065521D /* libMoPubSDK.a */,
+				1832FF8B1CBC18C10065521D /* libMoPubSDK-APICheck.a */,
+				1832FF8D1CBC18C10065521D /* libMoPubSDK+Networks.a */,
+				1832FF8F1CBC18C10065521D /* Specs.app */,
+				1832FF911CBC18C10065521D /* libMoPub.a */,
+				1832FF931CBC18C10065521D /* MoPub.bundle */,
+				1832FF951CBC18C10065521D /* libAdColonyCustomEvent.a */,
+				1832FF971CBC18C10065521D /* libChartboostCustomEvent.a */,
+				1832FF991CBC18C10065521D /* libFacebookCustomEvent.a */,
+				1832FF9B1CBC18C10065521D /* libGoogleAdMobCustomEvent.a */,
+				1832FF9D1CBC18C10065521D /* libGreystripeCustomEvent.a */,
+				1832FF9F1CBC18C10065521D /* libiAdCustomEvent.a */,
+				1832FFA11CBC18C10065521D /* libInMobiCustomEvent.a */,
+				1832FFA31CBC18C10065521D /* libVungleCustomEvent.a */,
+				1832FFA51CBC18C10065521D /* libMillennialCustomEvent.a */,
+				1832FFA71CBC18C10065521D /* libUnityCustomEvent.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4D208F041CAD6A2100F2C8F0 = {
+			isa = PBXGroup;
+			children = (
+				4D208F0F1CAD6A2100F2C8F0 /* mopub-ios-sdk-unity */,
+				4D208F0E1CAD6A2100F2C8F0 /* Products */,
+				1832FF6F1CBC18C10065521D /* MoPubSDK.xcodeproj */,
+			);
+			sourceTree = "<group>";
+		};
+		4D208F0E1CAD6A2100F2C8F0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4D208F0D1CAD6A2100F2C8F0 /* libmopub-ios-sdk-unity.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4D208F0F1CAD6A2100F2C8F0 /* mopub-ios-sdk-unity */ = {
+			isa = PBXGroup;
+			children = (
+				4D208F191CAD6A6000F2C8F0 /* MoPubBinding.m */,
+				4D208F1A1CAD6A6000F2C8F0 /* MoPubManager.h */,
+				4D208F1B1CAD6A6000F2C8F0 /* MoPubManager.mm */,
+			);
+			path = "mopub-ios-sdk-unity";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4D208F0C1CAD6A2100F2C8F0 /* mopub-ios-sdk-unity */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4D208F161CAD6A2100F2C8F0 /* Build configuration list for PBXNativeTarget "mopub-ios-sdk-unity" */;
+			buildPhases = (
+				4D208F091CAD6A2100F2C8F0 /* Sources */,
+				4D208F0A1CAD6A2100F2C8F0 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "mopub-ios-sdk-unity";
+			productName = "mopub-ios-sdk-unity";
+			productReference = 4D208F0D1CAD6A2100F2C8F0 /* libmopub-ios-sdk-unity.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4D208F051CAD6A2100F2C8F0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = MoPub;
+				TargetAttributes = {
+					1832FFE41CBD33070065521D = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					4D208F0C1CAD6A2100F2C8F0 = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 4D208F081CAD6A2100F2C8F0 /* Build configuration list for PBXProject "mopub-ios-sdk-unity" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 4D208F041CAD6A2100F2C8F0;
+			productRefGroup = 4D208F0E1CAD6A2100F2C8F0 /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 1832FF701CBC18C10065521D /* Products */;
+					ProjectRef = 1832FF6F1CBC18C10065521D /* MoPubSDK.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				4D208F0C1CAD6A2100F2C8F0 /* mopub-ios-sdk-unity */,
+				1832FFE41CBD33070065521D /* MoPub for Unity */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		1832FF891CBC18C10065521D /* libMoPubSDK.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libMoPubSDK.a;
+			remoteRef = 1832FF881CBC18C10065521D /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		1832FF8B1CBC18C10065521D /* libMoPubSDK-APICheck.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libMoPubSDK-APICheck.a";
+			remoteRef = 1832FF8A1CBC18C10065521D /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		1832FF8D1CBC18C10065521D /* libMoPubSDK+Networks.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libMoPubSDK+Networks.a";
+			remoteRef = 1832FF8C1CBC18C10065521D /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		1832FF8F1CBC18C10065521D /* Specs.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = Specs.app;
+			remoteRef = 1832FF8E1CBC18C10065521D /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		1832FF911CBC18C10065521D /* libMoPub.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libMoPub.a;
+			remoteRef = 1832FF901CBC18C10065521D /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		1832FF931CBC18C10065521D /* MoPub.bundle */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = MoPub.bundle;
+			remoteRef = 1832FF921CBC18C10065521D /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		1832FF951CBC18C10065521D /* libAdColonyCustomEvent.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libAdColonyCustomEvent.a;
+			remoteRef = 1832FF941CBC18C10065521D /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		1832FF971CBC18C10065521D /* libChartboostCustomEvent.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libChartboostCustomEvent.a;
+			remoteRef = 1832FF961CBC18C10065521D /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		1832FF991CBC18C10065521D /* libFacebookCustomEvent.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libFacebookCustomEvent.a;
+			remoteRef = 1832FF981CBC18C10065521D /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		1832FF9B1CBC18C10065521D /* libGoogleAdMobCustomEvent.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libGoogleAdMobCustomEvent.a;
+			remoteRef = 1832FF9A1CBC18C10065521D /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		1832FF9D1CBC18C10065521D /* libGreystripeCustomEvent.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libGreystripeCustomEvent.a;
+			remoteRef = 1832FF9C1CBC18C10065521D /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		1832FF9F1CBC18C10065521D /* libiAdCustomEvent.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libiAdCustomEvent.a;
+			remoteRef = 1832FF9E1CBC18C10065521D /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		1832FFA11CBC18C10065521D /* libInMobiCustomEvent.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libInMobiCustomEvent.a;
+			remoteRef = 1832FFA01CBC18C10065521D /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		1832FFA31CBC18C10065521D /* libVungleCustomEvent.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libVungleCustomEvent.a;
+			remoteRef = 1832FFA21CBC18C10065521D /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		1832FFA51CBC18C10065521D /* libMillennialCustomEvent.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libMillennialCustomEvent.a;
+			remoteRef = 1832FFA41CBC18C10065521D /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		1832FFA71CBC18C10065521D /* libUnityCustomEvent.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libUnityCustomEvent.a;
+			remoteRef = 1832FFA61CBC18C10065521D /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4D208F091CAD6A2100F2C8F0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D208F1C1CAD6A6000F2C8F0 /* MoPubBinding.m in Sources */,
+				4D208F1D1CAD6A6000F2C8F0 /* MoPubManager.mm in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1832FFE91CBD331D0065521D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MoPubSDK;
+			targetProxy = 1832FFE81CBD331D0065521D /* PBXContainerItemProxy */;
+		};
+		1832FFEB1CBD33200065521D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4D208F0C1CAD6A2100F2C8F0 /* mopub-ios-sdk-unity */;
+			targetProxy = 1832FFEA1CBD33200065521D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1832FFE61CBD33070065521D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = iphoneos;
+			};
+			name = Debug;
+		};
+		1832FFE71CBD33070065521D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = iphoneos;
+			};
+			name = Release;
+		};
+		4D208F141CAD6A2100F2C8F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		4D208F151CAD6A2100F2C8F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4D208F171CAD6A2100F2C8F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				HEADER_SEARCH_PATHS = "$(SRCROOT)/../mopub-ios-sdk/MoPubSDK/**";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
+			};
+			name = Debug;
+		};
+		4D208F181CAD6A2100F2C8F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				HEADER_SEARCH_PATHS = "$(SRCROOT)/../mopub-ios-sdk/MoPubSDK/**";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1832FFE51CBD33070065521D /* Build configuration list for PBXAggregateTarget "MoPub for Unity" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1832FFE61CBD33070065521D /* Debug */,
+				1832FFE71CBD33070065521D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4D208F081CAD6A2100F2C8F0 /* Build configuration list for PBXProject "mopub-ios-sdk-unity" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4D208F141CAD6A2100F2C8F0 /* Debug */,
+				4D208F151CAD6A2100F2C8F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4D208F161CAD6A2100F2C8F0 /* Build configuration list for PBXNativeTarget "mopub-ios-sdk-unity" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4D208F171CAD6A2100F2C8F0 /* Debug */,
+				4D208F181CAD6A2100F2C8F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4D208F051CAD6A2100F2C8F0 /* Project object */;
+}
