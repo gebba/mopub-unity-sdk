@@ -39,8 +39,14 @@ cp mopub-android-sdk/mopub-sdk/mopub-sdk-rewardedvideo/build/intermediates/bundl
 validate
 
 # Copy MoPub SDK dependency jars
-cp $ANDROID_HOME/extras/android/support/v4/android-support-v4.jar unity/MoPubUnityPlugin/Assets/Plugins/Android/mopub/libs/android-support-v4-23.1.1.jar
-validate
+if [ -f $ANDROID_HOME/extras/android/support/v4/android-support-v4.jar ]; then
+    cp $ANDROID_HOME/extras/android/support/v4/android-support-v4.jar unity/MoPubUnityPlugin/Assets/Plugins/Android/mopub/libs/android-support-v4-23.1.1.jar
+    validate
+else
+    cp $ANDROID_HOME/extras/android/m2repository/com/android/support/support-v4/23.1.1/support-v4-23.1.1.aar unity/MoPubUnityPlugin/Assets/Plugins/Android/mopub/libs/android-support-v4-23.1.1.aar
+    validate
+fi
+
 
 # Copy MoPub Custom Events jars
 cp mopub-android-sdk-unity/adcolony-custom-events/build/intermediates/bundles/release/classes.jar unity/MoPubUnityPlugin/Assets/Plugins/Android/mopub-support/libs/AdColony/mopub-adcolony-custom-events.jar
